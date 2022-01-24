@@ -141,9 +141,9 @@ TextureImporter:
       tessellationDetail: 0
       bones:
       - name: Head
-        position: {x: 205.29184, y: 21.578743, z: 0}
-        rotation: {x: 0, y: 0, z: 0.7339461, w: 0.67920774}
-        length: 289.42438
+        position: {x: 198.65831, y: 20.749443, z: 0}
+        rotation: {x: 0, y: 0, z: 0.706096, w: 0.7081162}
+        length: 290.2168
         parentId: -1
       spriteID: 2c72e3dd8adae68b0800000000000000
       internalID: -5156993582514690110
