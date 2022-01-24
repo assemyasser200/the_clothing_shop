@@ -145,11 +145,6 @@ TextureImporter:
         rotation: {x: 0, y: 0, z: 0.7153945, w: 0.6987208}
         length: 140.66928
         parentId: -1
-      - name: Body_1
-        position: {x: 171.2218, y: 1.2699859, z: 0}
-        rotation: {x: 0, y: 0, z: 0.057299767, w: 0.99835706}
-        length: 77.020065
-        parentId: 0
       spriteID: d88a5fa530b26f9a0800000000000000
       internalID: -6199720543617963891
       vertices:
