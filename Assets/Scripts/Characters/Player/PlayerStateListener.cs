@@ -91,23 +91,19 @@ public class PlayerStateListener : MonoBehaviour
                 break;
 
             case playerStates.Walk_Left:
-                currentPlayerDirection = newState.ToString();
-                //PlayAnimation(PlayerData.LeftWalkAnimation);
+                animator.Play("WalkLeft");
                 break;
 
             case playerStates.Walk_Right:
-                currentPlayerDirection = newState.ToString();
-                //PlayAnimation(PlayerData.RightWalkAnimation);
+                animator.Play("WalkRight");
                 break;
 
             case playerStates.Walk_Front:
-                currentPlayerDirection = newState.ToString();
-                //PlayAnimation(PlayerData.FrontWalkAnimation);
+                animator.Play("WalkFront");
                 break;
 
             case playerStates.Walk_Back:
-                currentPlayerDirection = newState.ToString();
-                //PlayAnimation(PlayerData.BackWalkAnimation);
+                animator.Play("WalkBack");
                 break;
         }
 
