@@ -11,6 +11,11 @@ public class PlayerMovementController : MonoBehaviour
     [SerializeField] private GameObject leftSide;
     [SerializeField] private GameObject rightSide;
 
+    public void StopMovement()
+    {
+        rigidBody.velocity = new Vector2(0f, 0f);
+    }
+
     public void HorizontalMovement(int direction)
     {
         frontSide.SetActive(false);

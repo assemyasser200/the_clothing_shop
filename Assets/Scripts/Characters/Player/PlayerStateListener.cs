@@ -51,7 +51,6 @@ public class PlayerStateListener : MonoBehaviour
             case playerStates.Walk_Right:
                 movementController.HorizontalMovement(1);
                 break;
-
         }
     }
 
@@ -64,7 +63,31 @@ public class PlayerStateListener : MonoBehaviour
         switch (newState)
         {
             case playerStates.Idle:
-            //PlayAnimation(PlayerData.IdleAnimation);
+          
+                movementController.StopMovement();
+                
+                if(previousState == playerStates.Idle &&
+                    currentState == playerStates.Idle)
+                {
+                    animator.Play("IdleFront");
+                }
+                
+                if(currentState == playerStates.Walk_Front)
+                {
+                    animator.Play("IdleFront");
+                }
+                else if(currentState == playerStates.Walk_Back)
+                {
+                    animator.Play("IdleBack");
+                }
+                else if(currentState == playerStates.Walk_Left)
+                {
+                    animator.Play("IdleLeftSide");
+                }
+                else if(currentState == playerStates.Walk_Right)
+                {
+                    animator.Play("IdleRightSide");
+                }
                 break;
 
             case playerStates.Walk_Left:
