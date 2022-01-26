@@ -32,6 +32,10 @@ MonoBehaviour:
       m_Hash: -938404208
       m_Sprite: {fileID: -8572577209204063745, guid: 2ac80564f9ab71f45923a1654c5f9af0,
         type: 3}
+    - m_Name: Default
+      m_Hash: 753088835
+      m_Sprite: {fileID: -8572577209204063745, guid: 0f97d8a3bf52f6e4387083b8cf2c42d6,
+        type: 3}
   - m_Name: Hat
     m_Hash: -1438192983
     m_CategoryList:
@@ -79,6 +83,10 @@ MonoBehaviour:
       m_Hash: -938404208
       m_Sprite: {fileID: 3092927524278091597, guid: 694e7047143729842a26a46890a2eb84,
         type: 3}
+    - m_Name: Default
+      m_Hash: 753088835
+      m_Sprite: {fileID: 3092927524278091597, guid: 1a7a8eb88b1655041b6f68934179cb5f,
+        type: 3}
   - m_Name: LeftLeg
     m_Hash: 101577729
     m_CategoryList:
@@ -98,6 +106,10 @@ MonoBehaviour:
       m_Hash: -938404208
       m_Sprite: {fileID: 7990961953180753673, guid: e7d7df1c7f3d9604aae88ee37a8311f2,
         type: 3}
+    - m_Name: Default
+      m_Hash: 753088835
+      m_Sprite: {fileID: 7990961953180753673, guid: c92cc0c5c4c487d47b8c68207bb0d310,
+        type: 3}
   - m_Name: RightLeg
     m_Hash: -2042820100
     m_CategoryList:
@@ -116,4 +128,8 @@ MonoBehaviour:
     - m_Name: Wizard_1
       m_Hash: -938404208
       m_Sprite: {fileID: -492415827900152420, guid: dc3be8f1443cd67499d52b1f683943e6,
+        type: 3}
+    - m_Name: Default
+      m_Hash: 753088835
+      m_Sprite: {fileID: -492415827900152420, guid: 663eb39b837747342984e9fda28b61e5,
         type: 3}

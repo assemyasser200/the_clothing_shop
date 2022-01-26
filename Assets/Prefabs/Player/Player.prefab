@@ -132,7 +132,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed8b1ae4e4e52b34ea557c1c11e076fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CategoryHash: -1.7667347e-13
+  m_CategoryHash: -2.3445707e+19
   m_labelHash: 3.6522132e-21
 --- !u!1 &879200971582855506
 GameObject:
@@ -266,7 +266,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed8b1ae4e4e52b34ea557c1c11e076fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CategoryHash: -1.3510484e+35
+  m_CategoryHash: -2.3445707e+19
   m_labelHash: -3.0250325e-36
 --- !u!1 &1052749671759678623
 GameObject:
@@ -1632,7 +1632,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed8b1ae4e4e52b34ea557c1c11e076fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CategoryHash: 0.024146153
+  m_CategoryHash: -2.3445707e+19
   m_labelHash: 3.6522132e-21
 --- !u!1 &8484954278688358284
 GameObject:
@@ -1985,8 +1985,8 @@ MonoBehaviour:
     hatResolver: {fileID: 8627430598784954042}
     middleFaceResolver: {fileID: 5377780699251535773}
     bodyResolver: {fileID: 8484954279639577152}
-    leftArmResolver: {fileID: 8484954280085238013}
-    rightArmResolver: {fileID: 0}
+    leftArmResolver: {fileID: 0}
+    rightArmResolver: {fileID: 8484954280085238013}
     leftLegResolver: {fileID: 8484954279039996508}
     rightLegResolver: {fileID: 8484954279218988558}
 --- !u!1 &8484954278821336713
@@ -2121,7 +2121,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed8b1ae4e4e52b34ea557c1c11e076fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CategoryHash: 4.3512973e+26
+  m_CategoryHash: -2.3445707e+19
   m_labelHash: 1.2248542e-16
 --- !u!1 &8484954278884768036
 GameObject:
@@ -3562,7 +3562,7 @@ SpriteRenderer:
   m_SortingLayerID: -1123354965
   m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: -6199720543617963891, guid: 177976d7a335ca2489a49e1cddd89ca3,
+  m_Sprite: {fileID: -8572577209204063745, guid: aecb6c18cca97b643819f3839de4c9ae,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3590,8 +3590,8 @@ MonoBehaviour:
   m_BoneTransforms:
   - {fileID: 8484954278913312359}
   m_Bounds:
-    m_Center: {x: -0.0027678013, y: 0.04115054, z: 0}
-    m_Extent: {x: 0.34382784, y: 0.37539342, z: 0}
+    m_Center: {x: -0.11362207, y: 0.12685275, z: 0}
+    m_Extent: {x: 0.46435785, y: 0.43838072, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &8484954279297130501
@@ -3620,8 +3620,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed8b1ae4e4e52b34ea557c1c11e076fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CategoryHash: 1.6059022e+36
-  m_labelHash: 1.2248542e-16
+  m_CategoryHash: -2.3445707e+19
+  m_labelHash: 6.4580854e-12
 --- !u!1 &8484954279298053897
 GameObject:
   m_ObjectHideFlags: 0
@@ -4202,7 +4202,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed8b1ae4e4e52b34ea557c1c11e076fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CategoryHash: -3.1684105e+26
+  m_CategoryHash: -2.3445707e+19
   m_labelHash: 1.2248542e-16
 --- !u!1 &8484954279599051686
 GameObject:
@@ -5474,7 +5474,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8484954280108233845}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.164, y: -0.336, z: 0}
+  m_LocalPosition: {x: 0.164, y: -0.311, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 8484954279223262763}
@@ -5520,7 +5520,7 @@ SpriteRenderer:
   m_SortingLayerID: -1123354965
   m_SortingLayer: 3
   m_SortingOrder: -4
-  m_Sprite: {fileID: -5012619062447356758, guid: 38b8ee44c02ed8643893ae81ef3095f7,
+  m_Sprite: {fileID: 7990961953180753673, guid: ff135d01e1d844647b6f5e16c0bf10c9,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -5548,8 +5548,8 @@ MonoBehaviour:
   m_BoneTransforms:
   - {fileID: 8484954279223262763}
   m_Bounds:
-    m_Center: {x: -0.008075163, y: -0.05983655, z: 0}
-    m_Extent: {x: 0.13829517, y: 0.14748836, z: 0}
+    m_Center: {x: -0.006205559, y: -0.053553805, z: 0}
+    m_Extent: {x: 0.13895452, y: 0.14788814, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &482544405302445318
@@ -5578,8 +5578,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed8b1ae4e4e52b34ea557c1c11e076fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CategoryHash: 2.6698418e-35
-  m_labelHash: 1.2248542e-16
+  m_CategoryHash: -2.3445707e+19
+  m_labelHash: 6.4580854e-12
 --- !u!1 &8484954280113157756
 GameObject:
   m_ObjectHideFlags: 0
@@ -5608,7 +5608,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8484954280113157756}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.156, y: -0.334, z: 0}
+  m_LocalPosition: {x: -0.156, y: -0.309, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 8484954278375014390}
@@ -5654,7 +5654,7 @@ SpriteRenderer:
   m_SortingLayerID: -1123354965
   m_SortingLayer: 3
   m_SortingOrder: -4
-  m_Sprite: {fileID: -8706064836285317710, guid: c94b2f67a6fb93f49b567d78c7b9fbf5,
+  m_Sprite: {fileID: -492415827900152420, guid: ff5dc8d7e6aae4c4798febee9852f769,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -5682,8 +5682,8 @@ MonoBehaviour:
   m_BoneTransforms:
   - {fileID: 8484954278375014390}
   m_Bounds:
-    m_Center: {x: -0.0010611266, y: -0.06323044, z: 0}
-    m_Extent: {x: 0.13760203, y: 0.14858007, z: 0}
+    m_Center: {x: -0.0005219281, y: -0.061408356, z: 0}
+    m_Extent: {x: 0.13715172, y: 0.14777777, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &1116183557591853706
@@ -5712,8 +5712,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed8b1ae4e4e52b34ea557c1c11e076fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CategoryHash: -3.5554285e-35
-  m_labelHash: 1.2248542e-16
+  m_CategoryHash: -2.3445707e+19
+  m_labelHash: 6.4580854e-12
 --- !u!1 &8484954280202909339
 GameObject:
   m_ObjectHideFlags: 0

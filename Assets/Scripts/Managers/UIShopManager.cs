@@ -30,18 +30,4 @@ public class UIShopManager : MonoBehaviour
 
         shopCustomer.BoughtItem(label, category);
     }
-
-    public void StartShopInteraction(IShopCustomer player)
-    {
-        this.shopCustomer = player;
-        // for(int i = 0; i < shopItemsData.Length; i++)
-        // {
-        //     UiShopItem shopItemInstance = Instantiate(shopItem, shopItemsPanel, false);
-        //     shopItemInstance.SetItemUiData(shopItemsData[i]);
-        //     shopItemInstance.purchaseButton.onClick.AddListener(() =>
-        //          CheckItemPrice(shopItemInstance.Price, shopItemInstance.Category
-        //         , shopItemInstance.Label));
-        // }
-        shopCanvas.gameObject.SetActive(true);
-    }
 }
