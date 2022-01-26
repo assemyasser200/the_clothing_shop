@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03653388f33ea89458485bf6f92b7c9f, type: 3}
+  m_Name: PlayerData
+  m_EditorClassIdentifier: 
+  playerGameObject: {fileID: 8484954278784979106, guid: 488a44531c2c951458137d1c00d2f568,
+    type: 3}
+  playerSpriteResolvers:
+  - playerView: front
+    hairResolver: {fileID: 0}
+    bodyResolver: {fileID: 0}
+    leftArmResolver: {fileID: 0}
+    rightArmResolver: {fileID: 0}
+    leftLegResolver: {fileID: 0}
+    rightLegResolver: {fileID: 0}
+  - playerView: 
+    hairResolver: {fileID: 0}
+    bodyResolver: {fileID: 0}
+    leftArmResolver: {fileID: 0}
+    rightArmResolver: {fileID: 0}
+    leftLegResolver: {fileID: 0}
+    rightLegResolver: {fileID: 0}
+  - playerView: 
+    hairResolver: {fileID: 0}
+    bodyResolver: {fileID: 0}
+    leftArmResolver: {fileID: 0}
+    rightArmResolver: {fileID: 0}
+    leftLegResolver: {fileID: 0}
+    rightLegResolver: {fileID: 0}
+  - playerView: 
+    hairResolver: {fileID: 0}
+    bodyResolver: {fileID: 0}
+    leftArmResolver: {fileID: 0}
+    rightArmResolver: {fileID: 0}
+    leftLegResolver: {fileID: 0}
+    rightLegResolver: {fileID: 0}
