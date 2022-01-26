@@ -1,10 +1,9 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-[CreateAssetMenu(fileName = "New Sentence", menuName = "Clothing Shop/Dialogue/Sentence")]
-public class Sentence : ScriptableObject
+[System.Serializable]
+public class Sentence
 {
     public Speaker speaker;
+    public Emotion emotion;
     [TextArea] public string content;
 }

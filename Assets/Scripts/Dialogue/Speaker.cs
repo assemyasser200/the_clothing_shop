@@ -10,6 +10,7 @@ public enum Emotion
     Angry
 }
 
+[System.Serializable]
 public struct SpeakerState
 {
     public Emotion emotion;

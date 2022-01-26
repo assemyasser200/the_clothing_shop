@@ -25,6 +25,38 @@ MonoBehaviour:
       - "\u0645\u062A\u062C\u0631 \u0627\u0644\u0645\u0644\u0627\u0628\u0633"
       Flags: 0000
       Languages_Touch: []
+    - Term: Dialogues/dlg_shop_intro
+      TermType: 0
+      Description: 
+      Languages:
+      - Hello Traveller
+      - "\u0645\u0631\u062D\u0628\u0627 \u064A\u0627 \u0639\u0645\u0646\u0627"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogues/hello_boy
+      TermType: 0
+      Description: 
+      Languages:
+      - Search for Coins
+      - 
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogues/bye_boy
+      TermType: 0
+      Description: 
+      Languages:
+      - Bye Bye
+      - 
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Speakers/shop_keeper
+      TermType: 0
+      Description: 
+      Languages:
+      - Shop Keeper
+      - "\u0627\u0644\u0628\u0627\u0626\u0639"
+      Flags: 0000
+      Languages_Touch: []
     - Term: Fonts/default_font
       TermType: 9
       Description: 
@@ -48,9 +80,9 @@ MonoBehaviour:
     Google_WebServiceURL: https://script.google.com/macros/s/AKfycby6AnBuL2TKuzh6K7_t4j5jfL1x-zFjr2CW6ERUmnNBxOLHB_l37YMYtH6qPZf_2Co6HQ/exec
     Google_SpreadsheetKey: 1nlLZ0MnEi_zmrwOrF26ndXYikLtBEVCy0w9xv1x1zaQ
     Google_SpreadsheetName: I2Loc The Clothing Shop Localization
-    Google_LastUpdatedVersion: 1643202200953
+    Google_LastUpdatedVersion: 1643227058839
     Google_Password: 
-    GoogleUpdateFrequency: 3
+    GoogleUpdateFrequency: 0
     GoogleInEditorCheckFrequency: 2
     GoogleUpdateSynchronization: 1
     GoogleUpdateDelay: 0
