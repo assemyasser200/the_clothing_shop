@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ShopTrigger : MonoBehaviour
 {
-    [SerializeField] private ShopManager shopManager;
+    [SerializeField] private UIShopManager shopManager;
 
     void OnTriggerEnter2D(Collider2D other)
     {

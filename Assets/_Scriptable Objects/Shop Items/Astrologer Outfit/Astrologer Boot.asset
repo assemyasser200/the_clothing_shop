@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e66b4ab6559285940b20c445b61ca4f9, type: 3}
-  m_Name: Wizard Robe
+  m_Name: Astrologer Boot
   m_EditorClassIdentifier: 
-  itemName: Atrolorger Robe
+  itemName: Atrolorger Boot
   itemLabel: Astrologer
-  price: 30
-  itemCategory: 1
+  price: 120
+  itemCategory: 2

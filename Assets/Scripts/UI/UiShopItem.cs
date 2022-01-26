@@ -2,13 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 using UnityEngine.Experimental.U2D.Animation;
 
 public class UiShopItem : MonoBehaviour
 {
     public Image itemImage;
-    public Text itemName;
-    public Text itemPrice;
+    public TMP_Text itemName;
+    public TMP_Text itemPrice;
     public Button purchaseButton;
 
     [SerializeField] private SpriteLibraryAsset libraryAsset;
