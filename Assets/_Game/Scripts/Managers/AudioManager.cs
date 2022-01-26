@@ -11,6 +11,10 @@ public struct AudioItem
 
 public class AudioManager : Singleton<AudioManager>
 {
+    [Header("Audio Status")]
+    public bool isMusicOn;
+    public bool isSoundOn;
+
     [Header("Audio Sources")]
     [SerializeField] private AudioSource bgmSource;
     [SerializeField] private AudioSource sfxSource;
@@ -20,9 +24,6 @@ public class AudioManager : Singleton<AudioManager>
 
     [Header("SFX Clips")]
     [SerializeField] private List<AudioItem> soundClips;
-
-    private bool isMusicOn;
-    private bool isSoundOn;
 
     protected override void OnSingletonAwake()
     {
