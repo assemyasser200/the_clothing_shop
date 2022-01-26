@@ -8,6 +8,6 @@ public class ShopItemData : ScriptableObject
     public string itemName;
     public string itemLabel;
     public int price;
-    public enum ItemCategory{Head, Body, LeftLeg, RightLeg}
+    public enum ItemCategory{Hair, Hat, MiddleFace, Body, LeftLeg, RightLeg}
     public ItemCategory itemCategory; 
 }

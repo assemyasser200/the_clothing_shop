@@ -11,16 +11,31 @@ public class PlayerOutfitSwapController : MonoBehaviour, IShopCustomer
     {
         switch(Category)
         {
-            case "Head":
-            Debug.Log("Head");
+            case "Hair":
                 for(int i = 0; i < spriteResolvers.Length; i++)
                 {
                     spriteResolvers[i].hairResolver.SetCategoryAndLabel(Category, label);
                 }   
             break;
 
+            case "Hat":
+                for(int i = 0; i < spriteResolvers.Length; i++)
+                {
+                    spriteResolvers[i].hatResolver.SetCategoryAndLabel(Category, label);
+                    spriteResolvers[i].middleFaceResolver.GetComponent<SpriteRenderer>().sprite = null;
+                }   
+            break;
+
+            case "MiddleFace":
+                for(int i = 0; i < spriteResolvers.Length; i++)
+                {
+                    spriteResolvers[i].middleFaceResolver.SetCategoryAndLabel(Category, label);
+                    spriteResolvers[i].hatResolver.GetComponent<SpriteRenderer>().sprite = null;
+                    //spriteResolvers[i].hairResolver.GetComponent<SpriteRenderer>().sprite = null;
+                }   
+            break;
+
             case "Body":
-            Debug.Log("Body");
                 for(int i = 0; i < spriteResolvers.Length; i++)
                 {
                     spriteResolvers[i].bodyResolver.SetCategoryAndLabel(Category, label);
@@ -39,7 +54,6 @@ public class PlayerOutfitSwapController : MonoBehaviour, IShopCustomer
 
             case "LeftLeg":
             case "RightLeg":
-            Debug.Log("Leg");
                 for(int i = 0; i < spriteResolvers.Length; i++)
                 {
                     if(spriteResolvers[i].leftLegResolver != null)

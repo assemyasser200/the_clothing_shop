@@ -24,19 +24,38 @@ MonoBehaviour:
       m_Hash: 495581706
       m_Sprite: {fileID: -8572577209204063745, guid: bdc91a35b72bef149b2e1c5ecc48e279,
         type: 3}
-  - m_Name: Head
-    m_Hash: 130111906
+    - m_Name: Archer_1
+      m_Hash: -340760626
+      m_Sprite: {fileID: -8572577209204063745, guid: f5fce90741de82a498b7ed253568e059,
+        type: 3}
+    - m_Name: Wizard_1
+      m_Hash: -938404208
+      m_Sprite: {fileID: -8572577209204063745, guid: 2ac80564f9ab71f45923a1654c5f9af0,
+        type: 3}
+  - m_Name: Hat
+    m_Hash: -1438192983
     m_CategoryList:
-    - m_Name: Librarian
-      m_Hash: -1085899049
-      m_Sprite: {fileID: 21300000, guid: 7db4c90e280fe5d4abefede011cae04e, type: 3}
     - m_Name: Warrior_1
       m_Hash: 495581706
       m_Sprite: {fileID: -1836120431684336037, guid: 16d5fb3d288de0e41b7633c027593b87,
         type: 3}
-    - m_Name: Hair_1
-      m_Hash: -1958923703
+  - m_Name: Hair
+    m_Hash: 1019596327
+    m_CategoryList:
+    - m_Name: Warrior_1
+      m_Hash: 495581706
       m_Sprite: {fileID: -5855173685045204511, guid: 1ca5debdc70bef24394a7ff30ba21018,
+        type: 3}
+  - m_Name: MiddleFace
+    m_Hash: -103798409
+    m_CategoryList:
+    - m_Name: Wizard_1
+      m_Hash: -938404208
+      m_Sprite: {fileID: -1836120431684336037, guid: 564c5c90577b1284ab14073074313337,
+        type: 3}
+    - m_Name: Warrior_2
+      m_Hash: -2071942224
+      m_Sprite: {fileID: -1836120431684336037, guid: ed11116da9cfdd243a758fd98ea52c43,
         type: 3}
   - m_Name: LeftArm
     m_Hash: -343733542
@@ -52,6 +71,14 @@ MonoBehaviour:
       m_Hash: 495581706
       m_Sprite: {fileID: 3092927524278091597, guid: 14543b1a884b5094fac4aca355e6e4d3,
         type: 3}
+    - m_Name: Archer_1
+      m_Hash: -340760626
+      m_Sprite: {fileID: 3092927524278091597, guid: c3dcb21e52aefba44821b469e8ecdf2c,
+        type: 3}
+    - m_Name: Wizard_1
+      m_Hash: -938404208
+      m_Sprite: {fileID: 3092927524278091597, guid: 694e7047143729842a26a46890a2eb84,
+        type: 3}
   - m_Name: LeftLeg
     m_Hash: 101577729
     m_CategoryList:
@@ -63,6 +90,14 @@ MonoBehaviour:
       m_Hash: 495581706
       m_Sprite: {fileID: 7990961953180753673, guid: 996036f5bea00f34a9424afd5a544025,
         type: 3}
+    - m_Name: Archer_1
+      m_Hash: -340760626
+      m_Sprite: {fileID: 7990961953180753673, guid: 67c12abdee78a454aabf7dd499eda7ac,
+        type: 3}
+    - m_Name: Wizard_1
+      m_Hash: -938404208
+      m_Sprite: {fileID: 7990961953180753673, guid: e7d7df1c7f3d9604aae88ee37a8311f2,
+        type: 3}
   - m_Name: RightLeg
     m_Hash: -2042820100
     m_CategoryList:
@@ -73,4 +108,12 @@ MonoBehaviour:
     - m_Name: Warrior_1
       m_Hash: 495581706
       m_Sprite: {fileID: -492415827900152420, guid: bff640ac467304245ae170be72025696,
+        type: 3}
+    - m_Name: Archer_1
+      m_Hash: -340760626
+      m_Sprite: {fileID: -492415827900152420, guid: 1c34673a2fa0a8d46aba7b1d8de3967e,
+        type: 3}
+    - m_Name: Wizard_1
+      m_Hash: -938404208
+      m_Sprite: {fileID: -492415827900152420, guid: dc3be8f1443cd67499d52b1f683943e6,
         type: 3}

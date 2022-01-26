@@ -15,4 +15,4 @@ MonoBehaviour:
   itemName: Gaurd Helmet
   itemLabel: Warrior_1
   price: 80
-  itemCategory: 0
+  itemCategory: 1
