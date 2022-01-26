@@ -25,6 +25,22 @@ MonoBehaviour:
       - "\u0645\u062A\u062C\u0631 \u0627\u0644\u0645\u0644\u0627\u0628\u0633"
       Flags: 0000
       Languages_Touch: []
+    - Term: General/arabic
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0627\u0644\u0639\u0631\u0628\u064A\u0629"
+      - "\u0627\u0644\u0639\u0631\u0628\u064A\u0629"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogues/bye_boy
+      TermType: 0
+      Description: 
+      Languages:
+      - Bye Bye
+      - 
+      Flags: 0000
+      Languages_Touch: []
     - Term: Dialogues/dlg_shop_intro
       TermType: 0
       Description: 
@@ -41,14 +57,6 @@ MonoBehaviour:
       - 
       Flags: 0000
       Languages_Touch: []
-    - Term: Dialogues/bye_boy
-      TermType: 0
-      Description: 
-      Languages:
-      - Bye Bye
-      - 
-      Flags: 0000
-      Languages_Touch: []
     - Term: Speakers/shop_keeper
       TermType: 0
       Description: 
@@ -62,7 +70,15 @@ MonoBehaviour:
       Description: 
       Languages:
       - Boogaloo-Regular SDF
-      - Boogaloo-Regular SDF
+      - NizarBBCKurdish-Bold SDF
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Fonts/language_select_font
+      TermType: 9
+      Description: 
+      Languages:
+      - NizarBBCKurdish-Bold SDF
+      - NizarBBCKurdish-Bold SDF
       Flags: 0000
       Languages_Touch: []
     CaseInsensitiveTerms: 0
@@ -80,7 +96,7 @@ MonoBehaviour:
     Google_WebServiceURL: https://script.google.com/macros/s/AKfycby6AnBuL2TKuzh6K7_t4j5jfL1x-zFjr2CW6ERUmnNBxOLHB_l37YMYtH6qPZf_2Co6HQ/exec
     Google_SpreadsheetKey: 1nlLZ0MnEi_zmrwOrF26ndXYikLtBEVCy0w9xv1x1zaQ
     Google_SpreadsheetName: I2Loc The Clothing Shop Localization
-    Google_LastUpdatedVersion: 1643227058839
+    Google_LastUpdatedVersion: 1643238958428
     Google_Password: 
     GoogleUpdateFrequency: 0
     GoogleInEditorCheckFrequency: 2
@@ -88,6 +104,7 @@ MonoBehaviour:
     GoogleUpdateDelay: 0
     Assets:
     - {fileID: 11400000, guid: 463ccfab47401b345859ab25194b2999, type: 2}
+    - {fileID: 11400000, guid: 409a95279ba584d42beb09903d75aa6a, type: 2}
     Spreadsheet_LocalFileName: 
     Spreadsheet_LocalCSVSeparator: ','
     Spreadsheet_LocalCSVEncoding: utf-8
