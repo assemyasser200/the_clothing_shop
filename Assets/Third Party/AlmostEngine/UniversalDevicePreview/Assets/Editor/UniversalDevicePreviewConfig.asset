@@ -49,7 +49,7 @@ MonoBehaviour:
       m_Width: 1920
       m_Height: 1080
       m_Scale: 1
-      m_Orientation: 2
+      m_Orientation: 0
       m_ResolutionName: Apple iPhone 8 Plus
       m_Category: Devices/Apple/iPhone
       m_Platform: iOS
@@ -76,7 +76,7 @@ MonoBehaviour:
       m_Width: 2532
       m_Height: 1170
       m_Scale: 1
-      m_Orientation: 2
+      m_Orientation: 0
       m_ResolutionName: Apple iPhone 12
       m_Category: Devices/Apple/iPhone
       m_Platform: iOS
@@ -103,7 +103,7 @@ MonoBehaviour:
       m_Width: 1334
       m_Height: 750
       m_Scale: 1
-      m_Orientation: 2
+      m_Orientation: 0
       m_ResolutionName: Apple iPhone SE (2020)
       m_Category: Devices/Apple/iPhone
       m_Platform: iOS
@@ -130,7 +130,7 @@ MonoBehaviour:
       m_Width: 2436
       m_Height: 1125
       m_Scale: 1
-      m_Orientation: 2
+      m_Orientation: 0
       m_ResolutionName: Apple iPhone X
       m_Category: Devices/Apple/iPhone
       m_Platform: iOS
@@ -157,7 +157,7 @@ MonoBehaviour:
       m_Width: 2960
       m_Height: 1440
       m_Scale: 1
-      m_Orientation: 2
+      m_Orientation: 0
       m_ResolutionName: Google Pixel 3 XL
       m_Category: Devices/Google
       m_Platform: Android
@@ -184,7 +184,7 @@ MonoBehaviour:
       m_Width: 2340
       m_Height: 1080
       m_Scale: 1
-      m_Orientation: 2
+      m_Orientation: 0
       m_ResolutionName: Google Pixel 4a (4G)
       m_Category: Devices/Google
       m_Platform: Android
@@ -238,7 +238,7 @@ MonoBehaviour:
       m_Width: 2280
       m_Height: 1080
       m_Scale: 1
-      m_Orientation: 2
+      m_Orientation: 0
       m_ResolutionName: OnePlus 6
       m_Category: Devices/OnePlus
       m_Platform: Android
@@ -265,7 +265,7 @@ MonoBehaviour:
       m_Width: 3040
       m_Height: 1440
       m_Scale: 1
-      m_Orientation: 2
+      m_Orientation: 0
       m_ResolutionName: Samsung Galaxy S10+
       m_Category: Devices/Samsung
       m_Platform: Android
@@ -292,7 +292,7 @@ MonoBehaviour:
       m_Width: 2340
       m_Height: 1080
       m_Scale: 1
-      m_Orientation: 2
+      m_Orientation: 0
       m_ResolutionName: Xiaomi Redmi Note 8 Pro
       m_Category: Devices/Xiaomi
       m_Platform: Android
@@ -320,7 +320,7 @@ MonoBehaviour:
       m_Width: 2160
       m_Height: 1620
       m_Scale: 1
-      m_Orientation: 2
+      m_Orientation: 0
       m_ResolutionName: Apple iPad 10.2 (2020)
       m_Category: Devices/Apple/iPad
       m_Platform: iOS
