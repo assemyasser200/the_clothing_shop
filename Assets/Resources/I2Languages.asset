@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f0b0c553be8edd4682e9180fdd13e37, type: 3}
+  m_Name: I2Languages
+  m_EditorClassIdentifier: 
+  mSource:
+    UserAgreesToHaveItOnTheScene: 0
+    UserAgreesToHaveItInsideThePluginsFolder: 0
+    GoogleLiveSyncIsUptoDate: 1
+    mTerms:
+    - Term: General/app_name
+      TermType: 0
+      Description: 
+      Languages:
+      - The Clothing Shop
+      - "\u0645\u062A\u062C\u0631 \u0627\u0644\u0645\u0644\u0627\u0628\u0633"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogues/dlg_shop_intro
+      TermType: 0
+      Description: 
+      Languages:
+      - Hello Traveller
+      - "\u0645\u0631\u062D\u0628\u0627 \u064A\u0627 \u0639\u0645\u0646\u0627"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogues/hello_boy
+      TermType: 0
+      Description: 
+      Languages:
+      - Search for Coins
+      - 
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogues/bye_boy
+      TermType: 0
+      Description: 
+      Languages:
+      - Bye Bye
+      - 
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Speakers/shop_keeper
+      TermType: 0
+      Description: 
+      Languages:
+      - Shop Keeper
+      - "\u0627\u0644\u0628\u0627\u0626\u0639"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Fonts/default_font
+      TermType: 9
+      Description: 
+      Languages:
+      - Boogaloo-Regular SDF
+      - Boogaloo-Regular SDF
+      Flags: 0000
+      Languages_Touch: []
+    CaseInsensitiveTerms: 0
+    OnMissingTranslation: 1
+    mTerm_AppName: 
+    mLanguages:
+    - Name: English
+      Code: en
+      Flags: 0
+    - Name: Arabic
+      Code: ar
+      Flags: 0
+    IgnoreDeviceLanguage: 0
+    _AllowUnloadingLanguages: 0
+    Google_WebServiceURL: https://script.google.com/macros/s/AKfycby6AnBuL2TKuzh6K7_t4j5jfL1x-zFjr2CW6ERUmnNBxOLHB_l37YMYtH6qPZf_2Co6HQ/exec
+    Google_SpreadsheetKey: 1nlLZ0MnEi_zmrwOrF26ndXYikLtBEVCy0w9xv1x1zaQ
+    Google_SpreadsheetName: I2Loc The Clothing Shop Localization
+    Google_LastUpdatedVersion: 1643227058839
+    Google_Password: 
+    GoogleUpdateFrequency: 0
+    GoogleInEditorCheckFrequency: 2
+    GoogleUpdateSynchronization: 1
+    GoogleUpdateDelay: 0
+    Assets:
+    - {fileID: 11400000, guid: 463ccfab47401b345859ab25194b2999, type: 2}
+    Spreadsheet_LocalFileName: 
+    Spreadsheet_LocalCSVSeparator: ','
+    Spreadsheet_LocalCSVEncoding: utf-8
+    Spreadsheet_SpecializationAsRows: 1

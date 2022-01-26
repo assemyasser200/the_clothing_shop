@@ -30,4 +30,10 @@ public class UIShopManager : MonoBehaviour
 
         shopCustomer.BoughtItem(label, category);
     }
+
+    public void StartShopInteraction(IShopCustomer shopCustomer)
+    {
+        this.shopCustomer = shopCustomer;
+        shopCanvas.gameObject.SetActive(true);
+    }
 }
