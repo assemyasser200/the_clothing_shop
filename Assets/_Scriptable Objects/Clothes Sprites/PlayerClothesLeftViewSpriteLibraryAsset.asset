@@ -18,39 +18,118 @@ MonoBehaviour:
     m_CategoryList:
     - m_Name: Astrologer
       m_Hash: 621623121
-      m_Sprite: {fileID: -6199720543617963891, guid: 177976d7a335ca2489a49e1cddd89ca3,
+      m_Sprite: {fileID: -6199720543617963891, guid: 71b810659871ee945945bcda092dfc7b,
         type: 3}
-  - m_Name: Head
-    m_Hash: 130111906
+    - m_Name: Warrior_1
+      m_Hash: 495581706
+      m_Sprite: {fileID: -8572577209204063745, guid: 0b71f6358fb801843a44f198ce8f461a,
+        type: 3}
+    - m_Name: Archer_1
+      m_Hash: -340760626
+      m_Sprite: {fileID: -8572577209204063745, guid: 2c800080b82443a419664d25bfa3632d,
+        type: 3}
+    - m_Name: Wizard_1
+      m_Hash: -938404208
+      m_Sprite: {fileID: -8572577209204063745, guid: b47669fa363d4ac48986d40cc943a7c9,
+        type: 3}
+    - m_Name: Default
+      m_Hash: 753088835
+      m_Sprite: {fileID: -8572577209204063745, guid: 686eeb00228b3a24eaef955b4ba4401e,
+        type: 3}
+  - m_Name: Hat
+    m_Hash: -1438192983
     m_CategoryList:
-    - m_Name: Librarian
-      m_Hash: -1085899049
-      m_Sprite: {fileID: 21300000, guid: 7db4c90e280fe5d4abefede011cae04e, type: 3}
+    - m_Name: Warrior_1
+      m_Hash: 495581706
+      m_Sprite: {fileID: -1836120431684336037, guid: 45d398a4b1f56ff4f8d5b99b31609e4e,
+        type: 3}
+  - m_Name: Hair
+    m_Hash: 1019596327
+    m_CategoryList:
+    - m_Name: Warrior_1
+      m_Hash: 495581706
+      m_Sprite: {fileID: -5855173685045204511, guid: 33efb82291473934d83cf3f3287629df,
+        type: 3}
+  - m_Name: MiddleFace
+    m_Hash: -103798409
+    m_CategoryList:
+    - m_Name: Warrior_2
+      m_Hash: -2071942224
+      m_Sprite: {fileID: -1836120431684336037, guid: 60b0abec379eb564f97d15a361c0b03d,
+        type: 3}
+    - m_Name: Wizard_1
+      m_Hash: -938404208
+      m_Sprite: {fileID: -1836120431684336037, guid: 459eb56b3d8f5064592f412b1660731c,
+        type: 3}
   - m_Name: LeftArm
     m_Hash: -343733542
     m_CategoryList:
     - m_Name: Astrologer
       m_Hash: 621623121
-      m_Sprite: {fileID: -8300734808072059609, guid: 8720f7b704045a34b96751fddf8aca54,
+      m_Sprite: {fileID: -8300734808072059609, guid: 4527893521e74584aa0025a59562073b,
+        type: 3}
+    - m_Name: Warrior_1
+      m_Hash: 495581706
+      m_Sprite: {fileID: 3092927524278091597, guid: 97c147684d20b7c479af70fc8eb9838b,
+        type: 3}
+    - m_Name: Archer_1
+      m_Hash: -340760626
+      m_Sprite: {fileID: 3092927524278091597, guid: 92704e34e12dafe42b041c2b4bdda9e8,
+        type: 3}
+    - m_Name: Wizard_1
+      m_Hash: -938404208
+      m_Sprite: {fileID: 3092927524278091597, guid: e1b1da81c7819e8469af2baabf70adbd,
+        type: 3}
+    - m_Name: Default
+      m_Hash: 753088835
+      m_Sprite: {fileID: 3092927524278091597, guid: 956aa47a38adae04083340b928b81a26,
         type: 3}
   - m_Name: RightArm
     m_Hash: 1806956327
-    m_CategoryList:
-    - m_Name: Astrologer
-      m_Hash: 621623121
-      m_Sprite: {fileID: 3925383762686610807, guid: 6adaf8e5292b81f4b99fe9945cd1fb94,
-        type: 3}
+    m_CategoryList: []
   - m_Name: LeftLeg
     m_Hash: 101577729
     m_CategoryList:
     - m_Name: Astrologer
       m_Hash: 621623121
-      m_Sprite: {fileID: -5012619062447356758, guid: 38b8ee44c02ed8643893ae81ef3095f7,
+      m_Sprite: {fileID: -5012619062447356758, guid: 645baefc51f409e46af9fe70c4f58044,
+        type: 3}
+    - m_Name: Warrior_1
+      m_Hash: 495581706
+      m_Sprite: {fileID: 7990961953180753673, guid: 3a6de7038a48d574692857000d47f752,
+        type: 3}
+    - m_Name: Archer_1
+      m_Hash: -340760626
+      m_Sprite: {fileID: 7990961953180753673, guid: b4d3997b27499074c8ecdf812b7726f6,
+        type: 3}
+    - m_Name: Wizard_1
+      m_Hash: -938404208
+      m_Sprite: {fileID: 7990961953180753673, guid: 5949da3aa2f6e0f418d27cd58a32b2e1,
+        type: 3}
+    - m_Name: Default
+      m_Hash: 753088835
+      m_Sprite: {fileID: 7990961953180753673, guid: 526bbcbb658266c43b2b56fcac02333a,
         type: 3}
   - m_Name: RightLeg
     m_Hash: -2042820100
     m_CategoryList:
     - m_Name: Astrologer
       m_Hash: 621623121
-      m_Sprite: {fileID: -8706064836285317710, guid: c94b2f67a6fb93f49b567d78c7b9fbf5,
+      m_Sprite: {fileID: -8706064836285317710, guid: ac6fa43341f51c34791097435ba341f0,
+        type: 3}
+    - m_Name: Warrior_1
+      m_Hash: 495581706
+      m_Sprite: {fileID: -492415827900152420, guid: 330cf3bfe812afc49b4f663fe22b7e9b,
+        type: 3}
+    - m_Name: Archer_1
+      m_Hash: -340760626
+      m_Sprite: {fileID: -492415827900152420, guid: 2e0ef511b9907dc45b0ed2cc2ce40eac,
+        type: 3}
+    - m_Name: Wizard_1
+      m_Hash: -938404208
+      m_Sprite: {fileID: -492415827900152420, guid: 3a616b1ca681c6743aea8c320a3be48e,
+        type: 3}
+    - m_Name: Default
+      m_Hash: 753088835
+      m_Sprite: {fileID: -492415827900152420, guid: ca1823a41dd2eca4fb816a58a7eb2080,
         type: 3}
