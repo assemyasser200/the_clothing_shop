@@ -43,7 +43,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 972843925c1db784490901a122a1e959, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.6
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -299,6 +299,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a1430f3e49cfc841857930f6cef8283, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isMusicOn: 0
+  isSoundOn: 0
   bgmSource: {fileID: 3405919053755601476}
   sfxSource: {fileID: 3405919054908152643}
   musicClips:
@@ -323,3 +325,7 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: aca8ccb09ef293d4192fa4f359ea0510, type: 3}
   - id: Typing
     clip: {fileID: 8300000, guid: 826be3750ac698b4f8b5c8c16f4b4555, type: 3}
+  - id: Error
+    clip: {fileID: 8300000, guid: 50dda9d76f709f347ae37ebde8c7b9a9, type: 3}
+  - id: Torch
+    clip: {fileID: 8300000, guid: 1874d504af8d38b4e9bcfa1385275517, type: 3}

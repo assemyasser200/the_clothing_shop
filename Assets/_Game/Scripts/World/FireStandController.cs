@@ -4,15 +4,17 @@ using UnityEngine;
 
 public class FireStandController : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField] private GameObject flame;
 
-    // Update is called once per frame
-    void Update()
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        
+        if (LayerMask.LayerToName(other.gameObject.layer).Equals("Player"))
+        {
+            if (!flame.activeSelf)
+            {
+                flame.SetActive(true);
+                AudioManager.instance.PlaySoundEffect("Torch");
+            }
+        }
     }
 }
