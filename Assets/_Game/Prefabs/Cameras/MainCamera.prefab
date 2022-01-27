@@ -90,7 +90,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CamTransform: {fileID: 0}
   target: {fileID: 0}
-  followspeed: 4
+  followspeed: 5
 --- !u!81 &6165160261742230570
 AudioListener:
   m_ObjectHideFlags: 0

@@ -52,7 +52,7 @@ public class ObjectPlayerInterAction : MonoBehaviour
 
     IEnumerator WaitBeforeNextInterAction()
     {
-        yield return new WaitForSeconds(5f);
+        yield return new WaitForSeconds(3.5f);
         rewardText.transform.parent.gameObject.SetActive(false);
     }
 

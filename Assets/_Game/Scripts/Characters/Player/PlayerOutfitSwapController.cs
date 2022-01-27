@@ -14,7 +14,6 @@ public class PlayerOutfitSwapController : MonoBehaviour, IShopCustomer
         SetMiddleFace("MiddleFace", "Default");
         SetBody("Body", "Default");
         SetLeg("LeftLeg", "Default");
-        
     }
 
     void SetHair(string label, string Category)
