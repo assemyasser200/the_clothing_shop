@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: Reward
   sentences:
-  - speaker: {fileID: 0}
+  - speaker: {fileID: 11400000, guid: 4658779ad6bf7024fa5a7145057622eb, type: 2}
     emotion: 0
     content: reward_coin
   isSkippable: 1

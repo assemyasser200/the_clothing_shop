@@ -48,5 +48,6 @@ MonoBehaviour:
     type: 3}
   dialogues:
   - {fileID: 11400000, guid: 8d605af10379a6a49b09aa53743c06e5, type: 2}
-  - {fileID: 11400000, guid: 23e0008972a2b6b458a975ac263480b7, type: 2}
   - {fileID: 11400000, guid: 8df52f583ddb05f4f8dd4a2f5dc90857, type: 2}
+  - {fileID: 11400000, guid: 23e0008972a2b6b458a975ac263480b7, type: 2}
+  - {fileID: 11400000, guid: 870b5cdd0821fd04898031542a43a378, type: 2}
