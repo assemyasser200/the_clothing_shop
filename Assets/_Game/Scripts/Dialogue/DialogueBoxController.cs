@@ -20,12 +20,43 @@ public class DialogueBoxController : MonoBehaviour
 
     private string fullText;
 
-    public void Initialize(string characterName, string sentence, Sprite characterSprite)
+    private void Update()
     {
-        characterImage.sprite = characterSprite;
-        characterNameText.GetComponent<Localize>().SetTerm("Speakers/" + characterName);
+        if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.X))
+        {
+            if (finishWriting)
+            {
+                DialogueManager.Instance.DisplayNextSentence();
+            }
+            else
+            {
+                StopSentence();
+                ShowWholeSentence(fullText);
+            }
+        }
+    }
+
+    public void Initialize(string sentence, string characterName = "", Sprite characterSprite = null)
+    {
+        if (characterSprite == null)
+        {
+            characterImage.gameObject.SetActive(false);
+        }
+        else
+        {
+            characterImage.sprite = characterSprite;
+        }
+
+        if (string.IsNullOrEmpty(characterName))
+        {
+            characterNameText.transform.parent.gameObject.SetActive(false);
+        }
+        else
+        {
+            characterNameText.GetComponent<Localize>().SetTerm("Speakers/" + characterName);
+        }
+
         dialogueText.GetComponent<Localize>().SetTerm("Dialogues/" + sentence);
-        Debug.Log(dialogueText.text);
         fullText = dialogueText.text;
 
         boxButton.onClick.AddListener(() =>

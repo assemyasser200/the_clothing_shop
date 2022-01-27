@@ -12,12 +12,12 @@ public class GameManager : MonoBehaviour
 
     void OnEnable()
     {
-        SceneManager.sceneLoaded += OnLevelLoad;   
+        SceneManager.sceneLoaded += OnLevelLoad;
     }
 
     void OnDisable()
     {
-        SceneManager.sceneLoaded -= OnLevelLoad;   
+        SceneManager.sceneLoaded -= OnLevelLoad;
     }
 
     void OnLevelLoad(Scene scene, LoadSceneMode mode)
@@ -31,11 +31,11 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
-        
+        DialogueManager.Instance.TriggerDialogue("WTD");
     }
 
     void Update()
     {
-        
+
     }
 }

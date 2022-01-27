@@ -36,7 +36,7 @@ public class DialogueManager : Singleton<DialogueManager>
 
             activeDialougeBox = Instantiate(dialogueBoxPrefab.gameObject) as GameObject;
             activeDialougeBox.transform.SetParent(dialogueBoxContainer.transform, false);
-            activeDialougeBox.GetComponent<DialogueBoxController>().Initialize(sentence.speaker.name, sentence.content, sentence.speaker.GetStateSprite(sentence.emotion));
+            activeDialougeBox.GetComponent<DialogueBoxController>().Initialize(sentence.content, sentence.speaker.name, sentence.speaker.GetStateSprite(sentence.emotion));
         }
     }
 

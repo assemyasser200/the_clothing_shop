@@ -25,6 +25,9 @@ public class Speaker : ScriptableObject
 
     public Sprite GetStateSprite(Emotion currentEmotion)
     {
+        if (states.Count == 0)
+            return null;
+
         return states.Find(state => state.emotion == currentEmotion).sprite;
     }
 }

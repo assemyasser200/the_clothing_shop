@@ -10,14 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ec45d87ca350f3e46ad47bf175ccb7d1, type: 3}
-  m_Name: ShopDialogue1
+  m_Name: TutorialDialogue
   m_EditorClassIdentifier: 
-  id: SD1
+  id: WTD
   sentences:
-  - speaker: {fileID: 11400000, guid: 75a51eace1d27324886dcb7674606f34, type: 2}
+  - speaker: {fileID: 11400000, guid: 4658779ad6bf7024fa5a7145057622eb, type: 2}
     emotion: 0
-    content: hello_boy
-  - speaker: {fileID: 11400000, guid: 75a51eace1d27324886dcb7674606f34, type: 2}
-    emotion: 0
-    content: bye_boy
+    content: welcome_tutorial
   isSkippable: 1
