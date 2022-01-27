@@ -52,4 +52,12 @@ public class UIShopManager : MonoBehaviour
         this.shopCustomer = shopCustomer;
         shopCanvas.gameObject.SetActive(true);
     }
+
+    public void ResetItemsOwnerShip()
+    {
+        for(int i = 0; i < shopItemsData.Length; i++)
+        {
+            shopItemsData[i].OwnedByPlayer = false;
+        }
+    }
 }

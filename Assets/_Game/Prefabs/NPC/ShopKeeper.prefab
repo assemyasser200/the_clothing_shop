@@ -187,6 +187,8 @@ GameObject:
   - component: {fileID: 5614366233048038937}
   - component: {fileID: 5614366233048038934}
   - component: {fileID: 5614366233048038935}
+  - component: {fileID: 328826430}
+  - component: {fileID: 328826426}
   m_Layer: 0
   m_Name: ShopKeeper
   m_TagString: Untagged
@@ -201,7 +203,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5614366233048038933}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 3.56, y: 2.8, z: -3.3770065}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -319,6 +321,59 @@ MonoBehaviour:
   shopManager: {fileID: 0}
   shopKeeperAnimator: {fileID: 5614366233048038936}
   greetingText: {fileID: 5614366233143920613}
+--- !u!61 &328826430
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5614366233048038933}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.03}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.3333333, y: 2.3333333}
+    newSize: {x: 2.3333333, y: 2.3333333}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.25, y: 2}
+  m_EdgeRadius: 0
+--- !u!114 &328826426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5614366233048038933}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa3c787186bc4bd40a8eaa674100059a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameEvent: {fileID: 11400000, guid: 8173a4c7adaf4c14ebff8f59a185a151, type: 2}
+  response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5614366233048038935}
+        m_MethodName: OnShopClose
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &5614366233143920611
 GameObject:
   m_ObjectHideFlags: 0

@@ -9,6 +9,7 @@ public class ShopTrigger : MonoBehaviour
     [SerializeField] private Animator shopKeeperAnimator;
     [SerializeField] private TMP_Text greetingText;
     private IShopCustomer shopCustomer;
+    private PlayerStateListener playerStateListener;
     private bool checkForInteraction;
     
     void OnTriggerEnter2D(Collider2D other)
@@ -16,10 +17,19 @@ public class ShopTrigger : MonoBehaviour
         if(other.gameObject.CompareTag("Player"))
         {
             shopCustomer = other.GetComponentInParent<IShopCustomer>();
+            playerStateListener = other.GetComponentInParent<PlayerStateListener>();
             checkForInteraction = true;
             greetingText.transform.parent.gameObject.SetActive(true);
             StartCoroutine("popUpTime");
         }
+    }
+
+    /// <summary>
+    /// Event listener
+    /// </summary>
+    public void OnShopClose()
+    {
+        playerStateListener.enabled = true;
     }
 
     void OnTriggerExit2D(Collider2D other)
@@ -29,7 +39,7 @@ public class ShopTrigger : MonoBehaviour
 
     IEnumerator popUpTime()
     {
-        yield return new WaitForSeconds(3);
+        yield return new WaitForSeconds(2.5f);
         greetingText.transform.parent.gameObject.SetActive(false);
     }
 
@@ -48,6 +58,7 @@ public class ShopTrigger : MonoBehaviour
 
     void SpeakWithShopKeeper()
     {
+        playerStateListener.enabled = false;
         shopKeeperAnimator.Play("Greeting");
         StartCoroutine("WaitForGreeting");
     }

@@ -7,18 +7,7 @@ public class PlayerInventoryManager : MonoBehaviour
     private List<ShopItemData> boughtItems = new List<ShopItemData>();
     private PlayerOutfitSwapController playerOutfitSwap;
     [SerializeField] private UiInventoryItem inventoryItem;
-    [SerializeField] private Transform inventoryCanvas;
     [SerializeField] private Transform inventoryItemsPanel;
-
-    void OnEnable()
-    {
-        DisplayItems();
-    }
-
-    void Start()
-    {
-        
-    }
 
     public void SetPlayer(PlayerOutfitSwapController playerOutfitSwap)
     {
@@ -31,15 +20,25 @@ public class PlayerInventoryManager : MonoBehaviour
         boughtItems.Add(data);
     }
 
-    void DisplayItems()
+    public void OnOpenInventory()
     {
+        if(boughtItems.Count <= 0)
+        {
+            return;
+        }
+
         for(int i = 0; i < boughtItems.Count; i++)
         {
             UiInventoryItem inventoryItemInstance = Instantiate(inventoryItem, inventoryItemsPanel, false);
             ShopItemData data = boughtItems[i];
             inventoryItemInstance.SetItemUiData(data);
-            // inventoryItemInstance.sellButton.onClick.AddListener(() =>
-            //     EquipItem(inventoryItemInstance.Category, inventoryItemInstance.Label));
+            inventoryItemInstance.equipButton.onClick.AddListener(() =>
+                EquipItem(inventoryItemInstance.Category, inventoryItemInstance.Label));
         }
+    }
+
+    void EquipItem(string category, string label)
+    {
+        this.playerOutfitSwap.BoughtItem(label, category);
     }
 }

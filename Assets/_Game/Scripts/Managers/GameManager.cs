@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private Transform spawnPlayerPosition;
     [SerializeField] private CameraFollowController cameraFollowController;
     [SerializeField] private PlayerInventoryManager inventoryManager;
+    [SerializeField] private UIShopManager shopManager;
     private GameObject player;
 
     void OnEnable()
@@ -28,16 +29,12 @@ public class GameManager : MonoBehaviour
         player.GetComponent<PlayerCoins>().InitializePlayerCoins();
 
         cameraFollowController.SetPlayerToFollow(player.transform);
-        //inventoryManager.SetPlayer(player.GetComponent<PlayerOutfitSwapController>());
+        shopManager.ResetItemsOwnerShip();
+        inventoryManager.SetPlayer(player.GetComponent<PlayerOutfitSwapController>());
     }
 
     void Start()
     {
         DialogueManager.Instance.TriggerDialogue("WTD");
-    }
-
-    void Update()
-    {
-
     }
 }
