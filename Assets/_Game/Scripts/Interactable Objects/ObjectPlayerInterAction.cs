@@ -1,14 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using TMPro;
 
 public class ObjectPlayerInterAction : MonoBehaviour
 {
     private bool checkForInteraction;
     private bool hasInteractedWith;
     private IInterActable interActable;
-    [SerializeField] private TMP_Text rewardText;
 
     void Update()
     {
@@ -37,23 +35,13 @@ public class ObjectPlayerInterAction : MonoBehaviour
         if(rewardCoins)
         {
             int rewardValue = interActable.CalculateRewardedCoins();
-            rewardText.transform.parent.gameObject.SetActive(true);
-            rewardText.text = "Found " + rewardValue.ToString() + " Coins!";
+            DialogueManager.instance.TriggerDialogue("Reward");
             AudioManager.instance.PlaySoundEffect("Earn");
         }
         else
         {
-            rewardText.transform.parent.gameObject.SetActive(true);
-            rewardText.text = "Found Nothing!";
+            DialogueManager.instance.TriggerDialogue("NoReward");
         }
-
-        StartCoroutine("WaitBeforeNextInterAction");
-    }
-
-    IEnumerator WaitBeforeNextInterAction()
-    {
-        yield return new WaitForSeconds(3.5f);
-        rewardText.transform.parent.gameObject.SetActive(false);
     }
 
     void OnTriggerEnter2D(Collider2D other)

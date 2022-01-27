@@ -10,4 +10,7 @@ public class ShopItemData : ScriptableObject
     public int price;
     public enum ItemCategory{Hair, Hat, MiddleFace, Body, LeftLeg, RightLeg}
     public ItemCategory itemCategory; 
+
+    public bool OwnedByPlayer{get; set;}
+    public int SellToShopPrice{get; set;}
 }

@@ -7,7 +7,8 @@ public class GameManager : MonoBehaviour
 {
     [SerializeField] private GameObject playerPrefab;
     [SerializeField] private Transform spawnPlayerPosition;
-    [SerializeField] private CameraFollowController cameraFollowControllerr;
+    [SerializeField] private CameraFollowController cameraFollowController;
+    [SerializeField] private PlayerInventoryManager inventoryManager;
     private GameObject player;
 
     void OnEnable()
@@ -26,7 +27,8 @@ public class GameManager : MonoBehaviour
         player.GetComponent<PlayerOutfitSwapController>().SetPlayerDefaultOutfit();
         player.GetComponent<PlayerCoins>().InitializePlayerCoins();
 
-        cameraFollowControllerr.SetPlayerToFollow(player.transform);
+        cameraFollowController.SetPlayerToFollow(player.transform);
+        //inventoryManager.SetPlayer(player.GetComponent<PlayerOutfitSwapController>());
     }
 
     void Start()

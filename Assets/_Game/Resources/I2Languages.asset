@@ -156,6 +156,22 @@ MonoBehaviour:
       - NizarBBCKurdish-Bold SDF
       Flags: 0000
       Languages_Touch: []
+    - Term: Dialogues/reward_coin
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Found  '
+      - 
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogues/no_reward
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - 
+      Flags: 0000
+      Languages_Touch: []
     CaseInsensitiveTerms: 0
     OnMissingTranslation: 1
     mTerm_AppName: 
@@ -171,7 +187,7 @@ MonoBehaviour:
     Google_WebServiceURL: https://script.google.com/macros/s/AKfycby6AnBuL2TKuzh6K7_t4j5jfL1x-zFjr2CW6ERUmnNBxOLHB_l37YMYtH6qPZf_2Co6HQ/exec
     Google_SpreadsheetKey: 1nlLZ0MnEi_zmrwOrF26ndXYikLtBEVCy0w9xv1x1zaQ
     Google_SpreadsheetName: I2Loc The Clothing Shop Localization
-    Google_LastUpdatedVersion: 1643247360623
+    Google_LastUpdatedVersion: 1643271082495
     Google_Password: 
     GoogleUpdateFrequency: 0
     GoogleInEditorCheckFrequency: 2

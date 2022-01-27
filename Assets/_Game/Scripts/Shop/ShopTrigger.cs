@@ -56,7 +56,7 @@ public class ShopTrigger : MonoBehaviour
     {
         yield return new WaitForSeconds(1.55f);
         shopKeeperAnimator.Play("Idle");
-        //OpenShopMenu();
+        OpenShopMenu();
         //TODO: start dialogue
     }
 
