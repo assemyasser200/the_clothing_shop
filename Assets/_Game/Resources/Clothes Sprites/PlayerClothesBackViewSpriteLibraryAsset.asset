@@ -1,0 +1,155 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bf7c34a0dc4e6348bea04faa70406ee, type: 3}
+  m_Name: PlayerClothesBackViewSpriteLibraryAsset
+  m_EditorClassIdentifier: 
+  m_Labels:
+  - m_Name: Body
+    m_Hash: 2073732236
+    m_CategoryList:
+    - m_Name: Astrologer
+      m_Hash: 621623121
+      m_Sprite: {fileID: -6199720543617963891, guid: 62f7dcea32a7ffa418517155194da5da,
+        type: 3}
+    - m_Name: Warrior_1
+      m_Hash: 495581706
+      m_Sprite: {fileID: -8572577209204063745, guid: 98eaf9bb3bc4e3a4fb86d7e76b778c6c,
+        type: 3}
+    - m_Name: Archer_1
+      m_Hash: -340760626
+      m_Sprite: {fileID: -8572577209204063745, guid: 6a819a138a1459449a9c5a86364bc3aa,
+        type: 3}
+    - m_Name: Wizard_1
+      m_Hash: -938404208
+      m_Sprite: {fileID: -8572577209204063745, guid: 9c1706ce0f0ce5a4985f15ed95c6b3a2,
+        type: 3}
+    - m_Name: Default
+      m_Hash: 753088835
+      m_Sprite: {fileID: -8572577209204063745, guid: 04b1b5f7178575b438f8a2bd1b9a10ec,
+        type: 3}
+  - m_Name: Hat
+    m_Hash: -1438192983
+    m_CategoryList:
+    - m_Name: Warrior_1
+      m_Hash: 495581706
+      m_Sprite: {fileID: -1836120431684336037, guid: bde1e7dbc0a7f264c8901e155ecb06b8,
+        type: 3}
+  - m_Name: Hair
+    m_Hash: 1019596327
+    m_CategoryList:
+    - m_Name: Warrior_1
+      m_Hash: 495581706
+      m_Sprite: {fileID: -5855173685045204511, guid: ecf4e2fdbe5aa9c4cba925d7725769f6,
+        type: 3}
+  - m_Name: MiddleFace
+    m_Hash: -103798409
+    m_CategoryList:
+    - m_Name: Wizard_1
+      m_Hash: -938404208
+      m_Sprite: {fileID: -1836120431684336037, guid: c7625b2893520d6469a40b22f3110801,
+        type: 3}
+    - m_Name: Warrior_2
+      m_Hash: -2071942224
+      m_Sprite: {fileID: -1836120431684336037, guid: 04b642fd1857ed342b19dabd02e86e01,
+        type: 3}
+  - m_Name: LeftArm
+    m_Hash: -343733542
+    m_CategoryList:
+    - m_Name: Astrologer
+      m_Hash: 621623121
+      m_Sprite: {fileID: -8300734808072059609, guid: aaf783f590d87eb428bc3aa8daf12cbc,
+        type: 3}
+    - m_Name: Warrior_1
+      m_Hash: 495581706
+      m_Sprite: {fileID: -5795415216193617673, guid: 3540d433c77d2084fae7833f30c2a359,
+        type: 3}
+    - m_Name: Archer_1
+      m_Hash: -340760626
+      m_Sprite: {fileID: -5795415216193617673, guid: e156afb9cd9172c4bae0b1030776639b,
+        type: 3}
+    - m_Name: Wizard_1
+      m_Hash: -938404208
+      m_Sprite: {fileID: -5795415216193617673, guid: b5507aeb58c2f834a8df31c041872c4d,
+        type: 3}
+    - m_Name: Default
+      m_Hash: 753088835
+      m_Sprite: {fileID: -5795415216193617673, guid: 09f985504b10d374a83f2ba4cd5d4c37,
+        type: 3}
+  - m_Name: RightArm
+    m_Hash: 1806956327
+    m_CategoryList:
+    - m_Name: Astrologer
+      m_Hash: 621623121
+      m_Sprite: {fileID: 3925383762686610807, guid: c55928fc7fe1a0844bae2ad1c5cb6634,
+        type: 3}
+    - m_Name: Warrior_1
+      m_Hash: 495581706
+      m_Sprite: {fileID: 7541728827216018771, guid: 77a291f7290d973498a7f48a977f55de,
+        type: 3}
+    - m_Name: Archer_1
+      m_Hash: -340760626
+      m_Sprite: {fileID: 7541728827216018771, guid: 7adf44c28bbb309449c58990cb94479f,
+        type: 3}
+    - m_Name: Wizard_1
+      m_Hash: -938404208
+      m_Sprite: {fileID: 7541728827216018771, guid: 8ecdc757fb87915478a3c93a74106cb3,
+        type: 3}
+    - m_Name: Default
+      m_Hash: 753088835
+      m_Sprite: {fileID: 7541728827216018771, guid: 5710f062721dd544ebeb4ad6662839f5,
+        type: 3}
+  - m_Name: LeftLeg
+    m_Hash: 101577729
+    m_CategoryList:
+    - m_Name: Astrologer
+      m_Hash: 621623121
+      m_Sprite: {fileID: -5012619062447356758, guid: c72760db4f16a194287ebf016de0c542,
+        type: 3}
+    - m_Name: Warrior_1
+      m_Hash: 495581706
+      m_Sprite: {fileID: 7990961953180753673, guid: 61be9788d5c91d049922122d2cab42e3,
+        type: 3}
+    - m_Name: Archer_1
+      m_Hash: -340760626
+      m_Sprite: {fileID: 7990961953180753673, guid: db6597921cc992143823539094fa80d1,
+        type: 3}
+    - m_Name: Wizard_1
+      m_Hash: -938404208
+      m_Sprite: {fileID: 7990961953180753673, guid: 4e3682093f9152e4f943c1061c047b71,
+        type: 3}
+    - m_Name: Default
+      m_Hash: 753088835
+      m_Sprite: {fileID: 7990961953180753673, guid: 457561c3f1fcb804dbc4b7239e645150,
+        type: 3}
+  - m_Name: RightLeg
+    m_Hash: -2042820100
+    m_CategoryList:
+    - m_Name: Astrologer
+      m_Hash: 621623121
+      m_Sprite: {fileID: -8706064836285317710, guid: 4c87220bdf3a3b643af16c18080c37b1,
+        type: 3}
+    - m_Name: Warrior_1
+      m_Hash: 495581706
+      m_Sprite: {fileID: -492415827900152420, guid: 3dc383324aaca964484d3386b42f65e9,
+        type: 3}
+    - m_Name: Archer_1
+      m_Hash: -340760626
+      m_Sprite: {fileID: -492415827900152420, guid: f5c8e6f92dedf46448308a527da04603,
+        type: 3}
+    - m_Name: Wizard_1
+      m_Hash: -938404208
+      m_Sprite: {fileID: -492415827900152420, guid: 9f00656ae1d734141af25d0804e890a9,
+        type: 3}
+    - m_Name: Default
+      m_Hash: 753088835
+      m_Sprite: {fileID: -492415827900152420, guid: 78a855bd786c64c40b345c41e1487bf1,
+        type: 3}

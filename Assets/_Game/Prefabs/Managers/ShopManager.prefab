@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &511708892456536522
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 511708892456536500}
+  - component: {fileID: 511708892456536501}
+  m_Layer: 0
+  m_Name: ShopManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &511708892456536500
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 511708892456536522}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &511708892456536501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 511708892456536522}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb22b7bf001dddc4f95a17aa1c99db11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shopItemsData:
+  - {fileID: 11400000, guid: 844eef9e6dbcff54fbac8f9c85b44515, type: 2}
+  - {fileID: 11400000, guid: 5bffb5489e0998d42b39406df8a349ef, type: 2}
+  - {fileID: 11400000, guid: 15a9eae30b2028a4db944b72462f8bc8, type: 2}
+  - {fileID: 11400000, guid: 91a3c25344b4fa543a2d88cdcb773649, type: 2}
+  - {fileID: 11400000, guid: 013ff6fc0d0fb4046ba75554b52732f0, type: 2}
+  - {fileID: 11400000, guid: f532231b8d5d4e44d989f69a50b0ed97, type: 2}
+  - {fileID: 11400000, guid: 2a0dcfee69f08b442b6d87327cd7801c, type: 2}
+  - {fileID: 11400000, guid: ede6e11f225bd2a4bbf786cd45c10b9b, type: 2}
+  - {fileID: 11400000, guid: c1ed613aa81fdb047991254874aeb4e5, type: 2}
+  - {fileID: 11400000, guid: e003d138d33870c47855ac8ca5c48172, type: 2}
+  shopItem: {fileID: 6772542349879594821, guid: af50587cbbe02674687c914c02631e33,
+    type: 3}
+  shopCanvas: {fileID: 0}
+  shopItemsPanel: {fileID: 0}
