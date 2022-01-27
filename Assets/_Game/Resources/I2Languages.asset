@@ -33,6 +33,70 @@ MonoBehaviour:
       - "\u0627\u0644\u0639\u0631\u0628\u064A\u0629"
       Flags: 0000
       Languages_Touch: []
+    - Term: UI/paused
+      TermType: 0
+      Description: 
+      Languages:
+      - Paused
+      - "\u0645\u062A\u0648\u0642\u0641"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: UI/inventory
+      TermType: 0
+      Description: 
+      Languages:
+      - Inventory
+      - "\u0627\u0644\u0623\u062F\u0648\u0627\u062A"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: UI/shop
+      TermType: 0
+      Description: 
+      Languages:
+      - Shop
+      - "\u0627\u0644\u0645\u062A\u062C\u0631"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: UI/language
+      TermType: 0
+      Description: 
+      Languages:
+      - Language
+      - "\u0627\u0644\u0644\u063A\u0629"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: UI/restart
+      TermType: 0
+      Description: 
+      Languages:
+      - Restart
+      - "\u0627\u0639\u0627\u062F\u0629"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: UI/quit
+      TermType: 0
+      Description: 
+      Languages:
+      - Quit
+      - "\u0627\u0644\u062E\u0631\u0648\u062C"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: UI/buy
+      TermType: 0
+      Description: 
+      Languages:
+      - Buy
+      - "\u0634\u0631\u0627\u0621"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: UI/sell
+      TermType: 0
+      Description: 
+      Languages:
+      - Sell
+      - "\u0628\u064A\u0639"
+      Flags: 0000
+      Languages_Touch: []
     - Term: Dialogues/bye_boy
       TermType: 0
       Description: 
@@ -96,7 +160,7 @@ MonoBehaviour:
     Google_WebServiceURL: https://script.google.com/macros/s/AKfycby6AnBuL2TKuzh6K7_t4j5jfL1x-zFjr2CW6ERUmnNBxOLHB_l37YMYtH6qPZf_2Co6HQ/exec
     Google_SpreadsheetKey: 1nlLZ0MnEi_zmrwOrF26ndXYikLtBEVCy0w9xv1x1zaQ
     Google_SpreadsheetName: I2Loc The Clothing Shop Localization
-    Google_LastUpdatedVersion: 1643238958428
+    Google_LastUpdatedVersion: 1643241832547
     Google_Password: 
     GoogleUpdateFrequency: 0
     GoogleInEditorCheckFrequency: 2
