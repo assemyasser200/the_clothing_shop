@@ -17,6 +17,11 @@ public class ObjectPlayerInterAction : MonoBehaviour
             return;
         }
 
+        if (this.hasInteractedWith)
+        {
+            return;
+        }
+
         if (Input.GetKeyDown(KeyCode.X))
         {
             InterActWithPlayer();
@@ -38,6 +43,7 @@ public class ObjectPlayerInterAction : MonoBehaviour
         }
         else
         {
+            rewardText.transform.parent.gameObject.SetActive(true);
             rewardText.text = "Found Nothing!";
         }
 

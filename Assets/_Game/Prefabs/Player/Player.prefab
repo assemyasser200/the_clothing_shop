@@ -132,7 +132,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed8b1ae4e4e52b34ea557c1c11e076fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CategoryHash: -2.3445707e+19
+  m_CategoryHash: -1.7667347e-13
   m_labelHash: 3.6522132e-21
 --- !u!1 &879200971582855506
 GameObject:
@@ -208,7 +208,7 @@ SpriteRenderer:
   m_SortingLayerID: -1123354965
   m_SortingLayer: 3
   m_SortingOrder: 8
-  m_Sprite: {fileID: -1836120431684336037, guid: 30ead79c993d3bb4fa6d7f8cbb95ab83,
+  m_Sprite: {fileID: -1836120431684336037, guid: 62a5df35d6eaddd49af38f7e39cdebf4,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -236,8 +236,8 @@ MonoBehaviour:
   m_BoneTransforms:
   - {fileID: 767463777675592581}
   m_Bounds:
-    m_Center: {x: 0.008736491, y: 0.17185867, z: 0}
-    m_Extent: {x: 0.7666216, y: 0.82672155, z: 0}
+    m_Center: {x: -0.012917876, y: 0.098204195, z: 0}
+    m_Extent: {x: 0.7411593, y: 0.7410823, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &7353509502268011003
@@ -266,8 +266,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed8b1ae4e4e52b34ea557c1c11e076fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CategoryHash: -2.3445707e+19
-  m_labelHash: -3.0250325e-36
+  m_CategoryHash: -1.3510484e+35
+  m_labelHash: -148570.25
 --- !u!1 &1052749671759678623
 GameObject:
   m_ObjectHideFlags: 0
@@ -1632,7 +1632,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed8b1ae4e4e52b34ea557c1c11e076fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CategoryHash: -2.3445707e+19
+  m_CategoryHash: 0.024146153
   m_labelHash: 3.6522132e-21
 --- !u!1 &8484954278688358284
 GameObject:
@@ -2110,7 +2110,7 @@ SpriteRenderer:
   m_SortingLayerID: -1123354965
   m_SortingLayer: 3
   m_SortingOrder: -4
-  m_Sprite: {fileID: 3925383762686610807, guid: 6adaf8e5292b81f4b99fe9945cd1fb94,
+  m_Sprite: {fileID: -5012619062447356758, guid: 38b8ee44c02ed8643893ae81ef3095f7,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2138,8 +2138,8 @@ MonoBehaviour:
   m_BoneTransforms:
   - {fileID: 8484954279132881027}
   m_Bounds:
-    m_Center: {x: -0.025602818, y: -0.027701646, z: 0}
-    m_Extent: {x: 0.13282397, y: 0.15452886, z: 0}
+    m_Center: {x: -0.021716148, y: -0.025877014, z: 0}
+    m_Extent: {x: 0.17203555, y: 0.17202178, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &3541317537777311208
@@ -2168,7 +2168,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed8b1ae4e4e52b34ea557c1c11e076fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CategoryHash: -2.3445707e+19
+  m_CategoryHash: 2.6698418e-35
   m_labelHash: 1.2248542e-16
 --- !u!1 &8484954278884768036
 GameObject:
@@ -3609,7 +3609,7 @@ SpriteRenderer:
   m_SortingLayerID: -1123354965
   m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: -8572577209204063745, guid: aecb6c18cca97b643819f3839de4c9ae,
+  m_Sprite: {fileID: -6199720543617963891, guid: 177976d7a335ca2489a49e1cddd89ca3,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3637,8 +3637,8 @@ MonoBehaviour:
   m_BoneTransforms:
   - {fileID: 8484954278913312359}
   m_Bounds:
-    m_Center: {x: -0.11362207, y: 0.12685275, z: 0}
-    m_Extent: {x: 0.46435785, y: 0.43838072, z: 0}
+    m_Center: {x: -0.0027678013, y: 0.04115054, z: 0}
+    m_Extent: {x: 0.34382784, y: 0.37539342, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &8484954279297130501
@@ -3667,8 +3667,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed8b1ae4e4e52b34ea557c1c11e076fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CategoryHash: -2.3445707e+19
-  m_labelHash: 6.4580854e-12
+  m_CategoryHash: 1.6059022e+36
+  m_labelHash: 1.2248542e-16
 --- !u!1 &8484954279298053897
 GameObject:
   m_ObjectHideFlags: 0
@@ -4249,7 +4249,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed8b1ae4e4e52b34ea557c1c11e076fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CategoryHash: -2.3445707e+19
+  m_CategoryHash: -3.1684105e+26
   m_labelHash: 1.2248542e-16
 --- !u!1 &8484954279599051686
 GameObject:
@@ -5567,7 +5567,7 @@ SpriteRenderer:
   m_SortingLayerID: -1123354965
   m_SortingLayer: 3
   m_SortingOrder: -4
-  m_Sprite: {fileID: 7990961953180753673, guid: ff135d01e1d844647b6f5e16c0bf10c9,
+  m_Sprite: {fileID: -5012619062447356758, guid: 38b8ee44c02ed8643893ae81ef3095f7,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -5595,8 +5595,8 @@ MonoBehaviour:
   m_BoneTransforms:
   - {fileID: 8484954279223262763}
   m_Bounds:
-    m_Center: {x: -0.006205559, y: -0.053553805, z: 0}
-    m_Extent: {x: 0.13895452, y: 0.14788814, z: 0}
+    m_Center: {x: -0.008075163, y: -0.05983655, z: 0}
+    m_Extent: {x: 0.13829517, y: 0.14748836, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &482544405302445318
@@ -5625,8 +5625,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed8b1ae4e4e52b34ea557c1c11e076fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CategoryHash: -2.3445707e+19
-  m_labelHash: 6.4580854e-12
+  m_CategoryHash: 2.6698418e-35
+  m_labelHash: 1.2248542e-16
 --- !u!1 &8484954280113157756
 GameObject:
   m_ObjectHideFlags: 0
@@ -5701,7 +5701,7 @@ SpriteRenderer:
   m_SortingLayerID: -1123354965
   m_SortingLayer: 3
   m_SortingOrder: -4
-  m_Sprite: {fileID: -492415827900152420, guid: ff5dc8d7e6aae4c4798febee9852f769,
+  m_Sprite: {fileID: -8706064836285317710, guid: c94b2f67a6fb93f49b567d78c7b9fbf5,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -5729,8 +5729,8 @@ MonoBehaviour:
   m_BoneTransforms:
   - {fileID: 8484954278375014390}
   m_Bounds:
-    m_Center: {x: -0.0005219281, y: -0.061408356, z: 0}
-    m_Extent: {x: 0.13715172, y: 0.14777777, z: 0}
+    m_Center: {x: -0.0010611266, y: -0.06323041, z: 0}
+    m_Extent: {x: 0.13760203, y: 0.14858007, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &1116183557591853706
@@ -5759,8 +5759,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed8b1ae4e4e52b34ea557c1c11e076fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CategoryHash: -2.3445707e+19
-  m_labelHash: 6.4580854e-12
+  m_CategoryHash: -3.5554285e-35
+  m_labelHash: 1.2248542e-16
 --- !u!1 &8484954280202909339
 GameObject:
   m_ObjectHideFlags: 0

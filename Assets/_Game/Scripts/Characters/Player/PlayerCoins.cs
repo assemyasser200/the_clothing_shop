@@ -14,6 +14,7 @@ public class PlayerCoins : MonoBehaviour, IInterActable
     public void InitializePlayerCoins()
     {
         playerCoins = initialCoinsAmount;
+        updateCoinsUI.Invoke(playerCoins);
     }
 
     public int CalculateRewardedCoins()

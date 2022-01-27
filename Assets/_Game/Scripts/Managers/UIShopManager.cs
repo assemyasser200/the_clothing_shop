@@ -29,11 +29,12 @@ public class UIShopManager : MonoBehaviour
         //Debug.Log(price +" , "+ category +" , "+ label);
         if(shopCustomer.CheckAvailableCoins(price))
         {
+            AudioManager.instance.PlaySoundEffect("Buy");
             shopCustomer.BoughtItem(label, category);
         }
         else
         {
-            
+            AudioManager.instance.PlaySoundEffect("Error");
         }
         
     }
