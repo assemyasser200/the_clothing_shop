@@ -27,8 +27,15 @@ public class UIShopManager : MonoBehaviour
     void CheckItemPrice(int price, string category, string label)
     {
         //Debug.Log(price +" , "+ category +" , "+ label);
-
-        shopCustomer.BoughtItem(label, category);
+        if(shopCustomer.CheckAvailableCoins(price))
+        {
+            shopCustomer.BoughtItem(label, category);
+        }
+        else
+        {
+            
+        }
+        
     }
 
     public void StartShopInteraction(IShopCustomer shopCustomer)

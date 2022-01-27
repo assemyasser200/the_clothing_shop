@@ -23,4 +23,15 @@ public class PlayerCoins : MonoBehaviour, IInterActable
         updateCoinsUI.Invoke(playerCoins);
         return coins;
     }
+
+    public void DeductCoins(int price)
+    {
+        playerCoins -= price;
+        updateCoinsUI.Invoke(playerCoins);
+    }
+
+    public int GetCoins()
+    {
+        return playerCoins;
+    }
 }
