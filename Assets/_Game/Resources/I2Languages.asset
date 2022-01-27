@@ -132,6 +132,22 @@ MonoBehaviour:
         \u0644\u0644\u062A\u062D\u062F\u062B \u0648 \u0627\u0644\u062A\u0641\u0627\u0639\u0644"
       Flags: 0000
       Languages_Touch: []
+    - Term: Dialogues/reward_coin
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Found  '
+      - 
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogues/no_reward
+      TermType: 0
+      Description: 
+      Languages:
+      - Found Nothing
+      - 
+      Flags: 0000
+      Languages_Touch: []
     - Term: Speakers/shop_keeper
       TermType: 0
       Description: 
@@ -154,22 +170,6 @@ MonoBehaviour:
       Languages:
       - NizarBBCKurdish-Bold SDF
       - NizarBBCKurdish-Bold SDF
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Dialogues/reward_coin
-      TermType: 0
-      Description: 
-      Languages:
-      - 'Found  '
-      - 
-      Flags: 0000
-      Languages_Touch: []
-    - Term: Dialogues/no_reward
-      TermType: 0
-      Description: 
-      Languages:
-      - 
-      - 
       Flags: 0000
       Languages_Touch: []
     CaseInsensitiveTerms: 0

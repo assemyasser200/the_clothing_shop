@@ -11,10 +11,10 @@ public class ShopTrigger : MonoBehaviour
     private IShopCustomer shopCustomer;
     private PlayerStateListener playerStateListener;
     private bool checkForInteraction;
-    
+
     void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.gameObject.CompareTag("Player"))
+        if (other.gameObject.CompareTag("Player"))
         {
             shopCustomer = other.GetComponentInParent<IShopCustomer>();
             playerStateListener = other.GetComponentInParent<PlayerStateListener>();
@@ -50,7 +50,7 @@ public class ShopTrigger : MonoBehaviour
             return;
         }
 
-        if (Input.GetKeyDown(KeyCode.X))
+        if (Input.GetKeyDown(KeyCode.X) || Input.GetKeyDown(KeyCode.Space))
         {
             SpeakWithShopKeeper();
         }
@@ -76,7 +76,7 @@ public class ShopTrigger : MonoBehaviour
     /// </summary>
     void OpenShopMenu()
     {
-        if(shopCustomer != null)
+        if (shopCustomer != null)
         {
             shopManager.StartShopInteraction(shopCustomer);
         }

@@ -20,7 +20,7 @@ public class ObjectPlayerInterAction : MonoBehaviour
             return;
         }
 
-        if (Input.GetKeyDown(KeyCode.X))
+        if (Input.GetKeyDown(KeyCode.X) || Input.GetKeyDown(KeyCode.Space))
         {
             InterActWithPlayer();
         }
@@ -32,7 +32,7 @@ public class ObjectPlayerInterAction : MonoBehaviour
         this.checkForInteraction = false;
         this.hasInteractedWith = true;
 
-        if(rewardCoins)
+        if (rewardCoins)
         {
             int rewardValue = interActable.CalculateRewardedCoins();
             DialogueManager.instance.TriggerDialogue("Reward");
@@ -46,16 +46,16 @@ public class ObjectPlayerInterAction : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if(this.hasInteractedWith)
+        if (this.hasInteractedWith)
         {
             return;
         }
 
-        if(other.gameObject.CompareTag("Player"))
+        if (other.gameObject.CompareTag("Player"))
         {
             interActable = other.GetComponentInParent<IInterActable>();
             this.checkForInteraction = true;
-        }    
+        }
     }
 
     void OnTriggerExit2D(Collider2D other)
