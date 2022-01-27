@@ -17,4 +17,7 @@ MonoBehaviour:
   - speaker: {fileID: 11400000, guid: 4658779ad6bf7024fa5a7145057622eb, type: 2}
     emotion: 0
     content: welcome_tutorial
+  - speaker: {fileID: 11400000, guid: 4658779ad6bf7024fa5a7145057622eb, type: 2}
+    emotion: 0
+    content: gather_coins
   isSkippable: 1
