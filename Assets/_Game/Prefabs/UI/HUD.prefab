@@ -504,6 +504,8 @@ GameObject:
   m_Component:
   - component: {fileID: 5158223043264566473}
   - component: {fileID: 5158223043264566472}
+  - component: {fileID: 4365775976057000000}
+  - component: {fileID: 8228309941971786215}
   m_Layer: 5
   m_Name: HUD
   m_TagString: Untagged
@@ -541,6 +543,46 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5158223043264566474}
   m_CullTransparentMesh: 0
+--- !u!114 &4365775976057000000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5158223043264566474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bad4f2e2e9a9f0d4faca68abe02c5cab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coinsText: {fileID: 5158223043132848949}
+--- !u!114 &8228309941971786215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5158223043264566474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68d3aeb072dabf145827bbba4857addb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameEvent: {fileID: 11400000, guid: 54a715ec4399bcb43a9a042370f4cc88, type: 2}
+  response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4365775976057000000}
+        m_MethodName: UpdateRewardedCoins
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &5158223043868874327
 GameObject:
   m_ObjectHideFlags: 0

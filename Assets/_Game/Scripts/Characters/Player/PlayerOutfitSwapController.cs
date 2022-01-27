@@ -52,13 +52,13 @@ public class PlayerOutfitSwapController : MonoBehaviour, IShopCustomer
 
             if(spriteResolvers[i].leftArmResolver != null)
             {
-                Debug.Log("leftArmResolver");
+             //   Debug.Log("leftArmResolver");
                 spriteResolvers[i].leftArmResolver.SetCategoryAndLabel("LeftArm", label);
             }
 
             if(spriteResolvers[i].rightArmResolver != null)
             {
-                Debug.Log("rightArmResolver");
+//                Debug.Log("rightArmResolver");
                 spriteResolvers[i].rightArmResolver.SetCategoryAndLabel("RightArm", label);
             }
         }  
@@ -105,6 +105,19 @@ public class PlayerOutfitSwapController : MonoBehaviour, IShopCustomer
             case "RightLeg":
                 SetLeg(label, Category);
             break;
+        }
+    }
+
+    public bool CheckAvailableCoins(int price)
+    {
+        if(GetComponent<PlayerCoins>().GetCoins() < price)
+        {
+            return false;
+        }
+        else
+        {
+            GetComponent<PlayerCoins>().DeductCoins(price);
+            return true;
         }
     }
 }

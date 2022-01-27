@@ -1452,7 +1452,7 @@ GameObject:
   - component: {fileID: 4519834720961900979}
   m_Layer: 8
   m_Name: BackSide
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1842,11 +1842,12 @@ GameObject:
   - component: {fileID: 8484954278784979113}
   - component: {fileID: 8484954278784979118}
   - component: {fileID: 8484954278784979119}
+  - component: {fileID: 5207679572351574020}
   - component: {fileID: 4812196995633458472}
   - component: {fileID: -7704551861572485100}
   m_Layer: 8
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1941,6 +1942,34 @@ MonoBehaviour:
   backSide: {fileID: 8484954278684880647}
   leftSide: {fileID: 8484954279775895077}
   rightSide: {fileID: 8484954278985511500}
+--- !u!114 &5207679572351574020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8484954278784979106}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64dec6c5b0d5a6b479b2c146546ef82f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  initialCoinsAmount: 150
+  coinRewards: 1e0000006400000055000000320000007d00000096000000
+  updateCoinsUI:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 54a715ec4399bcb43a9a042370f4cc88, type: 2}
+        m_MethodName: Raise
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &4812196995633458472
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2426,7 +2455,7 @@ GameObject:
   - component: {fileID: 6752213158872742075}
   m_Layer: 8
   m_Name: RightSide
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4666,7 +4695,7 @@ GameObject:
   - component: {fileID: 6843552697287773440}
   m_Layer: 8
   m_Name: FrontSide
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4860,7 +4889,7 @@ GameObject:
   - component: {fileID: 5457508995555330571}
   m_Layer: 8
   m_Name: LeftSide
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
