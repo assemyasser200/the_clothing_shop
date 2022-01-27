@@ -148,6 +148,24 @@ MonoBehaviour:
       - 
       Flags: 0000
       Languages_Touch: []
+    - Term: Dialogues/gather_coins
+      TermType: 0
+      Description: 
+      Languages:
+      - You can search for coins by interacting with all the items out there
+      - "\u0627\u0628\u062D\u062B \u0639\u0646 \u0627\u0644\u0639\u0645\u0644\u0627\u062A
+        \u0628\u0627\u0644\u062A\u0641\u0627\u0639\u0644 \u0645\u0639 \u0627\u0644\u0635\u0646\u0627\u062F\u064A\u0642
+        \u0648 \u0627\u0644\u0642\u0644\u0644"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Dialogues/board_notice
+      TermType: 0
+      Description: 
+      Languages:
+      - A Special Coin is required to be thrown in the well and something might happen
+      - 
+      Flags: 0000
+      Languages_Touch: []
     - Term: Speakers/shop_keeper
       TermType: 0
       Description: 
@@ -187,7 +205,7 @@ MonoBehaviour:
     Google_WebServiceURL: https://script.google.com/macros/s/AKfycby6AnBuL2TKuzh6K7_t4j5jfL1x-zFjr2CW6ERUmnNBxOLHB_l37YMYtH6qPZf_2Co6HQ/exec
     Google_SpreadsheetKey: 1nlLZ0MnEi_zmrwOrF26ndXYikLtBEVCy0w9xv1x1zaQ
     Google_SpreadsheetName: I2Loc The Clothing Shop Localization
-    Google_LastUpdatedVersion: 1643271082495
+    Google_LastUpdatedVersion: 1643307053544
     Google_Password: 
     GoogleUpdateFrequency: 0
     GoogleInEditorCheckFrequency: 2
