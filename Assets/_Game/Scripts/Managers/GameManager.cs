@@ -24,6 +24,7 @@ public class GameManager : MonoBehaviour
     {
         player = Instantiate(playerPrefab, spawnPlayerPosition.position, Quaternion.identity);
         player.GetComponent<PlayerOutfitSwapController>().SetPlayerDefaultOutfit();
+        player.GetComponent<PlayerCoins>().InitializePlayerCoins();
 
         cameraFollowControllerr.SetPlayerToFollow(player.transform);
     }
